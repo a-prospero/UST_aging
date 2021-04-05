@@ -23,7 +23,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 // Import Data
-d3.csv("../small_aging.csv").then(function(hairData) {
+d3.csv("Charts/small_aging.csv").then(function(hairData) {
   console.log(hairData)
     // Step 1: Parse Data/Cast as numbers
     // ==============================
