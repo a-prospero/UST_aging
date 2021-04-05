@@ -1,18 +1,5 @@
-// /**
-//  * Generates an array of random numbers between 0 and 9
-//  * @param {integer} n: length of array to generate
-//  */
-//  function randomNumbersBetween0and9(n) {
-//     var randomNumberArray = [];
-//     for (var i = 0; i < n; i++) {
-//       var randomNumber = Math.floor(Math.random() * 10);
-//       randomNumberArray.push(randomNumber);
-//     }
-//     return randomNumberArray;
-//   }
-  
-  // Create our first trace
-  var totalinv = {
+ // Create our first trace
+ var totalinv = {
     x: ["January", "February", "March"],
     y: [3832595, 3432667, 1239205],
     mode: 'lines+markers+text',
